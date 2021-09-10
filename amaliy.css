@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-image: url(../amaliy/polya.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.ballon{
+    position: absolute;
+    background-color:dodgerblue;
+    border-radius: 45%;
+    background-size: 100%;
+    animation:fall 2s ;
+}
+@keyframes fall {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(3);
+    }
+}
